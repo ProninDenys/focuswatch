@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "FocusWatch",
+  "name": "FocusWatch — Clean YouTube Experience",
   "description": "Hide distractions like recommendations and comments on YouTube for focused viewing.",
   "version": "1.0",
   "permissions": ["storage", "scripting", "tabs"],

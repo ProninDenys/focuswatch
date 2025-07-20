@@ -1,4 +1,4 @@
-# 👁️ FocusWatch
+# 👁️ FocusWatch — Clean YouTube Experience
 
 **FocusWatch** is a minimalist Chrome extension that helps you watch YouTube without distractions — no comments, no recommendations, no noise. Just the video.
 
