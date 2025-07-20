@@ -2,62 +2,64 @@ body {
   margin: 0;
   padding: 16px;
   font-family: 'Segoe UI', 'Roboto', sans-serif;
-  background: linear-gradient(145deg, #f7f7f7, #ffffff);
-  color: #1f1f1f;
-  width: 280px;
+  background: rgba(24, 24, 24, 0.9);
+  color: #ffffff;
+  width: 240px;
   border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  border: 1px solid #e3e3e3;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .popup {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #202124;
+  color: #f5f5f5;
 }
 
 .logo img {
-  width: 28px;
-  height: 28px;
-  border-radius: 8px;
-  background: #f0f0f0;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  background: #1e1e1e;
   padding: 4px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 #toggleButton {
-  padding: 14px 30px;
-  font-size: 15px;
+  padding: 12px 24px;
+  font-size: 14px;
   font-weight: 600;
   border: none;
-  border-radius: 9999px;
+  border-radius: 12px;
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: all 0.3s ease;
   color: white;
-  background: linear-gradient(135deg, #00d466, #00c853);
-  box-shadow: 0 4px 10px rgba(0, 200, 83, 0.3);
+  background: linear-gradient(135deg, #00c853, #00aa44);
+  box-shadow: 0 4px 10px rgba(0, 200, 83, 0.35);
+  outline: none;
 }
 
 #toggleButton:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 16px rgba(0, 200, 83, 0.4);
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px rgba(0, 200, 83, 0.45);
 }
 
 #toggleButton.off {
   background: linear-gradient(135deg, #ff4d4d, #ff5252);
-  box-shadow: 0 4px 10px rgba(255, 82, 82, 0.3);
+  box-shadow: 0 4px 10px rgba(255, 82, 82, 0.35);
 }
 
 #toggleButton.off:hover {
-  box-shadow: 0 6px 16px rgba(255, 82, 82, 0.4);
+  box-shadow: 0 6px 14px rgba(255, 82, 82, 0.45);
 }
