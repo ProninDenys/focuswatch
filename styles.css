@@ -1,47 +1,50 @@
 body {
   margin: 0;
+  padding: 16px;
   font-family: 'Roboto', sans-serif;
-  background-color: #121212;
-  color: white;
-  width: 240px;
-  padding: 20px;
+  background-color: #ffffff;
+  color: #1f1f1f;
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .popup {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
 }
 
 .logo {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 8px;
+  color: #202124;
 }
 
 .logo img {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
 }
 
 #toggleButton {
-  background-color: #00C853;
-  color: white;
-  border: none;
-  padding: 12px 20px;
+  padding: 12px 24px;
   font-size: 14px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  border: none;
+  border-radius: 9999px;
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  color: white;
+  background-color: #00C853;
 }
 
 #toggleButton:hover {
-  background-color: #00b844;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.03);
 }
 
 #toggleButton.off {
@@ -49,5 +52,5 @@ body {
 }
 
 #toggleButton.off:hover {
-  background-color: #ff2e2e;
+  background-color: #e64747;
 }

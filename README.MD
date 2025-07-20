@@ -1,38 +1,59 @@
-# FocusWatch
+# 👁️ FocusWatch
 
-Minimal Chrome extension that hides distractions on YouTube such as comments, recommendations, and merch sections — giving you a clean, focused watching experience.
+**FocusWatch** is a minimalist Chrome extension that helps you watch YouTube without distractions — no comments, no recommendations, no noise. Just the video.
 
-## 🔧 Features
+![FocusWatch preview](./icons/icon128.png)
 
-- Toggle Focus Mode ON/OFF in the popup
-- Removes:
-  - Comments
-  - Sidebar recommendations
-  - Related videos
-  - Merch banners
-- Clean and minimal UI
-- Saves your focus preference
+---
 
-## 📸 Screenshot
+## 🚀 Features
 
-![FocusWatch UI](./icons/icon128.png)
+- ✅ One-click Focus Mode toggle
+- ✅ Removes comments, recommendations, and merch banners
+- ✅ Compatible with modern YouTube layout (2024–2025)
+- ✅ Stores state using Chrome sync storage
+- ✅ Clean, high-contrast popup UI
 
-## 🧪 How to install locally
+---
 
-1. Clone or download the repo
-2. Go to `chrome://extensions/`
-3. Enable **Developer mode**
+## 🎨 Interface
+
+- Minimalist Google-style popup
+- Custom toggle button (ON/OFF)
+- Built with HTML/CSS/JS (no frameworks)
+- Dark theme for focus
+
+---
+
+## 🧪 How to Install Locally
+
+1. Clone or download this repository
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable **Developer Mode**
 4. Click **Load unpacked**
-5. Select the project folder
-6. Open YouTube and toggle Focus Mode
+5. Select the `focuswatch` project folder
 
-## 🚀 Tech Stack
+---
 
-- Manifest v3
-- HTML/CSS/JS
-- Chrome Storage API
+## 🛠️ Built With
+
+- Manifest V3
+- Vanilla JS + Chrome APIs
 - MutationObserver
+- Chrome Storage Sync
 
-## 🧠 Author
+---
 
-[Your Name or GitHub](https://github.com/ProninDenys)
+## 📸 Screenshots
+
+Coming soon — before/after YouTube view with Focus Mode
+
+---
+
+## ✍️ Author
+
+Made with ❤️ by [Denys Pronin](https://github.com/ProninDenys)
+
+---
+
+> If you find this useful — feel free to ⭐️ the repo or suggest improvements!
