@@ -1,59 +1,66 @@
-# 👁️ FocusWatch — Clean YouTube Experience
+<h1 align="center">
+  👁️‍🗨️ FocusWatch — Clean YouTube Experience
+</h1>
 
-**FocusWatch** is a minimalist Chrome extension that helps you watch YouTube without distractions — no comments, no recommendations, no noise. Just the video.
+<p align="center">
+  Hide distractions on YouTube and stay focused with a single click.
+</p>
 
-![FocusWatch preview](./icons/icon128.png)
+<div align="center">
+  <img src="focuswatch_promo_1280x800_text.png" alt="FocusWatch Promo" width="600"/>
+</div>
+
+---
+
+## 🧩 About
+
+FocusWatch is a minimalist Chrome extension that lets you watch YouTube without distractions. Toggle "Focus Mode" to instantly hide:
+
+- ⛔ Comments
+- ⛔ Sidebar recommendations
+- ⛔ Related videos and clutter
+
+Perfect for students, professionals, or anyone who wants a cleaner YouTube experience.
 
 ---
 
 ## 🚀 Features
 
-- ✅ One-click Focus Mode toggle
-- ✅ Removes comments, recommendations, and merch banners
-- ✅ Compatible with modern YouTube layout (2024–2025)
-- ✅ Stores state using Chrome sync storage
-- ✅ Clean, high-contrast popup UI
+- 🔘 Toggle Focus Mode ON/OFF instantly
+- 💾 Saves your preferences in Chrome storage
+- 💻 Sleek popup interface (lightweight, no tracking)
+- 🔧 Built using Manifest V3 & modern Chrome APIs
 
 ---
 
-## 🎨 Interface
+## 🖼 Screenshots
 
-- Minimalist Google-style popup
-- Custom toggle button (ON/OFF)
-- Built with HTML/CSS/JS (no frameworks)
-- Dark theme for focus
+### 🟢 Focus Mode: ON
+
+<img src="focuswatch_popup_on_final.png" width="400"/>
+
+### 🔴 Focus Mode: OFF
+
+<img src="focuswatch_popup_off_final.png" width="400"/>
 
 ---
 
-## 🧪 How to Install Locally
+## 📦 Installation
 
-1. Clone or download this repository
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable **Developer Mode**
+1. Clone or download this repo
+2. Go to `chrome://extensions/`
+3. Enable **Developer mode**
 4. Click **Load unpacked**
-5. Select the `focuswatch` project folder
+5. Select the `focuswatch` folder
 
 ---
 
-## 🛠️ Built With
+## 🧠 Keywords
 
-- Manifest V3
-- Vanilla JS + Chrome APIs
-- MutationObserver
-- Chrome Storage Sync
+`youtube`, `focus`, `chrome extension`, `clean UI`, `hide comments`, `productivity`, `minimal`, `no distractions`, `study mode`
 
 ---
 
-## 📸 Screenshots
+## ⚖️ License
 
-Coming soon — before/after YouTube view with Focus Mode
-
----
-
-## ✍️ Author
-
-Made with ❤️ by [Denys Pronin](https://github.com/ProninDenys)
-
----
-
-> If you find this useful — feel free to ⭐️ the repo or suggest improvements!
+MIT — free to use and modify. No data collection. No nonsense.
