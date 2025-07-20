@@ -1,19 +1,20 @@
 body {
   margin: 0;
   padding: 16px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background: linear-gradient(145deg, #f7f7f7, #ffffff);
   color: #1f1f1f;
-  width: 260px;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  width: 280px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e3e3e3;
 }
 
 .popup {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
 }
 
 .logo {
@@ -21,36 +22,42 @@ body {
   font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   color: #202124;
 }
 
 .logo img {
-  width: 24px;
-  height: 24px;
-  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #f0f0f0;
+  padding: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
 #toggleButton {
-  padding: 12px 24px;
-  font-size: 14px;
-  font-weight: 500;
+  padding: 14px 30px;
+  font-size: 15px;
+  font-weight: 600;
   border: none;
   border-radius: 9999px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.1s ease;
+  transition: all 0.25s ease;
   color: white;
-  background-color: #00C853;
+  background: linear-gradient(135deg, #00d466, #00c853);
+  box-shadow: 0 4px 10px rgba(0, 200, 83, 0.3);
 }
 
 #toggleButton:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 200, 83, 0.4);
 }
 
 #toggleButton.off {
-  background-color: #FF5252;
+  background: linear-gradient(135deg, #ff4d4d, #ff5252);
+  box-shadow: 0 4px 10px rgba(255, 82, 82, 0.3);
 }
 
 #toggleButton.off:hover {
-  background-color: #e64747;
+  box-shadow: 0 6px 16px rgba(255, 82, 82, 0.4);
 }
